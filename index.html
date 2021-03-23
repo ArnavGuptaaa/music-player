@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Static/css/styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="player-card">
+            <div class="music-info">
+                <h2 id="title">Title</h2>
+                <p id="artist">artist</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="./Static/images/cover1.jpg" id="thumbnail" alt="Music Thumbnail">
+            </div>
+            
+            <audio src="./Static/audio/5 32.mp3" id="music"></audio>
+
+            <div class="controls">
+                <i class="bi bi-skip-backward-fill" id="previous"></i>
+                <!-- change play button to pause from js -->
+                <i class="bi bi-play-circle-fill" id="play"></i>
+                <i class="bi bi-pause-circle-fill" id="pause"></i>
+                <i class="bi bi-skip-forward-fill" id="next"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./Static/app.js"></script>
+</body>
+</html>
