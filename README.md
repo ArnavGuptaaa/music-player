@@ -1,5 +1,7 @@
 ﻿# Music Player
 
-## Music Player designed with HTML, CSS and JS.
+### Music Player built with HTML, CSS and JS.
+<br />
 
-#### Project Link : https://nav-music-player.web.app
+## Demo
+<img src="./readme/demo.gif" alt="music-player-demo">
